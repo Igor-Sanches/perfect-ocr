@@ -1,0 +1,2 @@
+MainPackage=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\x86\Release\Upload\Perfect OCR_10.1.10.0_x86.appx
+SymbolPackage=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\x86\Release\Upload\Perfect OCR_10.1.10.0\Perfect OCR_10.1.10.0_x86.appxsym

@@ -1,0 +1,79 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Faby.Temas"> 
+    
+    <!--Colors-->
+    <Color x:Key="IsBackgroundColor">#FF0E0101</Color>
+    <Color x:Key="IsBackgroundToolBarColor">#FF190907</Color>
+    <Color x:Key="IsBorderBrushColor">Gray</Color>
+    <Color x:Key="IsForegroundColor">WhiteSmoke</Color> 
+    <Color x:Key="IsForegroundDescColor">LightGray</Color>
+    
+    <SolidColorBrush x:Key="IsBorderBrush" Color="{ThemeResource IsBorderBrushColor}"/>
+    <SolidColorBrush x:Key="IsBackgroundToolBar" Color="{ThemeResource IsBackgroundColor}"/>
+    <SolidColorBrush x:Key="IsBackground" Color="{ThemeResource IsBackgroundToolBarColor}"/>
+    <SolidColorBrush x:Key="IsForeground" Color="{ThemeResource IsForegroundColor}"/>
+    <SolidColorBrush x:Key="IsBackgroundForSplitViewAndFlyout" Opacity="0.9" Color="{ThemeResource IsBackgroundColor}"/> 
+    <SolidColorBrush x:Key="IsDescritionForegorund" Color="{ThemeResource IsForegroundDescColor}"/>
+    
+    <!--Button Radio-->
+    <SolidColorBrush x:Key="IsColorIsChecked" Color="{ThemeResource IsBorderBrushColor}"/>
+    <SolidColorBrush x:Key="IsColorIsCheckedDisabled" Color="{ThemeResource IsBorderBrushColor}"/>
+    <SolidColorBrush x:Key="IsColorIsCheckedPressed" Color="{ThemeResource IsBorderBrushColor}"/>
+    <SolidColorBrush x:Key="IsColorIsCheckedPointerOver" Color="{ThemeResource IsForegroundColor}" Opacity="0.8"/>
+    <SolidColorBrush x:Key="IsColorIsCheckedColorPointerOver" Color="{ThemeResource IsForegroundColor}" Opacity="0.8"/> 
+    
+    <!--Button BorderBrush-->
+    <SolidColorBrush x:Key="IsBorderBrushButton" Color="Gray"/>
+
+    <!--Button Transparentes-->
+    <SolidColorBrush x:Key="IsTransparentesBackgroundButton" Color="Transparent"/>
+    <!--Button Disabled--> 
+    <!--Button Styles-->
+    <SolidColorBrush x:Key="IsBackgroundButton" Color="Transparent"/>
+    <!--Button Disabled--> 
+
+    <!--TextBox Princial de resultados-->
+    <SolidColorBrush x:Key="isTextBoxResultBackground" Color="{ThemeResource IsBackgroundColor}"/>
+    <!--TextBox Disabled-->  
+    <SolidColorBrush x:Key="isTextBoxResultForegroundDisabled" Color="WhiteSmoke"/> 
+    <SolidColorBrush x:Key="isTextBoxResultPlaceholderTextForegroundDisabled" Color="LightGray"/>
+
+    <!--TextBox Focused-->
+    <SolidColorBrush x:Key="isTextBoxResultForegroundFocused" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="isTextBoxResultBorderBrushFocused" Color="Gray"/>
+    <SolidColorBrush x:Key="isTextBoxResultPlaceholderTextForegroundFocused" Color="LightGray"/>
+
+    <!--TextBox PointerOver-->  
+    <SolidColorBrush x:Key="isTextBoxResultForegroundPointerOver" Color="LightGray"/>
+     
+    <SolidColorBrush x:Key="isComboBoxBackground" Color="Transparent"/>
+    <SolidColorBrush x:Key="isComboBoxFlyoutBackground" Color="{ThemeResource IsBackgroundColor}"/>
+    
+    <!--MenuFlyoutPresenter das fontes-->
+    <SolidColorBrush x:Key="isMenuFlyoutPresenterBackground" Color="{ThemeResource IsBackgroundColor}"/>
+
+    <!--CommanderBar-->
+    <SolidColorBrush x:Key="isCommanderBarBackground" Color="{ThemeResource IsBackgroundColor}"/>
+ 
+    <!--Thumb-->
+    <!--Thumb Primeiro Circulo-->
+    <SolidColorBrush x:Key="isThumbBackground1Circulo" Color="WhiteSmoke"/>
+    <!--Thumb segundo Circulo-->
+    <SolidColorBrush x:Key="isThumbBackground2Circulo" Color="{ThemeResource IsBackgroundToolBarColor}"/>
+
+    <!--Slider-->
+    <!--Slider Pressed-->
+    <SolidColorBrush x:Key="isSliderTrackRectPressed" Color="LightGray"/>
+    <SolidColorBrush x:Key="isSliderDecreaseRectPressed" Color="DarkGray"/> 
+    <!--Slider Disabled-->
+    <SolidColorBrush x:Key="isSliderTrackRectDisabled" Color="LightGray"/>
+    <SolidColorBrush x:Key="isSliderDecreaseRectDisabled" Color="DarkGray"/> 
+    <!--Slider PointerOver-->
+    <SolidColorBrush x:Key="isSliderTrackRectPointerOver" Color="LightGray"/>
+    <SolidColorBrush x:Key="isSliderDecreaseRectPointerOver" Color="DarkGray"/>
+
+</ResourceDictionary>
+
+    

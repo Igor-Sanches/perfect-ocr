@@ -1,0 +1,8 @@
+MainPackage=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_ARM.appx
+SymbolPackage=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0\Perfect OCR_10.1.10.0_ARM.appxsym
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_language-en.appx
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_language-pt.appx
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_scale-100.appx
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_scale-125.appx
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_scale-150.appx
+ResourcePack=C:\Users\igord\source\repos\Perfect OCR\Perfect OCR\bin\ARM\Release\Upload\Perfect OCR_10.1.10.0_scale-400.appx

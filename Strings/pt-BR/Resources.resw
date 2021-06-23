@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="descri.Text" xml:space="preserve">
+    <value>Aplicativo ideal para remoção de textos de imagens como frases, notas musicas e muito mais.</value>
+  </data>
+  <data name="Aguarde" xml:space="preserve">
+    <value>Aguarde...</value>
+  </data>
+  <data name="buscarimagem.Content" xml:space="preserve">
+    <value>Buscar imagem</value>
+  </data>
+  <data name="capturarimagem.Content" xml:space="preserve">
+    <value>Capturar imagem</value>
+  </data>
+  <data name="contato" xml:space="preserve">
+    <value>Conversar</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copiado com êxito!</value>
+  </data>
+  <data name="deletelist" xml:space="preserve">
+    <value>Deseja realmente limpar toda esta lista?</value>
+  </data>
+  <data name="deletelistbtn" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="deleteuniclist" xml:space="preserve">
+    <value>Deseja apagar este item?</value>
+  </data>
+  <data name="deleteuniclistbtn" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="errorLerImagem" xml:space="preserve">
+    <value>A imagem selecionada não possui textos ou são imperceptíveis!</value>
+  </data>
+  <data name="Fazendooscannernaimagem" xml:space="preserve">
+    <value>Iniciando a leitura na imagem!</value>
+  </data>
+  <data name="Fechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="fotos" xml:space="preserve">
+    <value>Foto</value>
+  </data>
+  <data name="fotosFolder" xml:space="preserve">
+    <value>Fotos capturadas</value>
+  </data>
+  <data name="historicos.Label" xml:space="preserve">
+    <value>Históricos</value>
+  </data>
+  <data name="isHitorico.Content" xml:space="preserve">
+    <value>Históricos</value>
+  </data>
+  <data name="item" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="items" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="Leitura.Content" xml:space="preserve">
+    <value>Modo leitura</value>
+  </data>
+  <data name="lerImagem" xml:space="preserve">
+    <value>Iniciar leitura na imagem</value>
+  </data>
+  <data name="limparlista.Text" xml:space="preserve">
+    <value>Limpar toda esta lista</value>
+  </data>
+  <data name="listavazia.Content" xml:space="preserve">
+    <value>Lista vazia!</value>
+  </data>
+  <data name="preparando" xml:space="preserve">
+    <value>Buscando informações!</value>
+  </data>
+  <data name="savefile" xml:space="preserve">
+    <value>Seu arquivo foi salvo em .txt no local:</value>
+  </data>
+  <data name="semtext" xml:space="preserve">
+    <value>Não encontramos nenhum texto a ser usado nesta ação!</value>
+  </data>
+  <data name="sobre.Label" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="textResult.PlaceholderText" xml:space="preserve">
+    <value>Digite seu texto aqui...</value>
+  </data>
+  <data name="unic" xml:space="preserve">
+    <value>Limpar este único item?</value>
+  </data>
+  <data name="zapRe" xml:space="preserve">
+    <value>Você sera redirecionado ao navegador e em seguida ao WhatsApp!</value>
+  </data>
+  <data name="feedback.Label" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="lerImagem2" xml:space="preserve">
+    <value>Restaurar leitura da imagem</value>
+  </data>
+  <data name="rate.Label" xml:space="preserve">
+    <value>Avaliar app</value>
+  </data>
+  <data name="addList" xml:space="preserve">
+    <value>Adicionando</value>
+  </data>
+  <data name="itenList" xml:space="preserve">
+    <value>item na lista...</value>
+  </data>
+  <data name="itensList" xml:space="preserve">
+    <value>items na lista...</value>
+  </data>
+  <data name="NomeCriado" xml:space="preserve">
+    <value>Novo texto</value>
+  </data>
+  <data name="updadeList" xml:space="preserve">
+    <value>Atualizando lista...</value>
+  </data>
+  <data name="compartilhar.Label" xml:space="preserve">
+    <value>Compartilhar app</value>
+  </data>
+  <data name="LinkCompartilhar" xml:space="preserve">
+    <value>o aplicativo ideal para você extrair textos de imagem... Baixe agora mesmo</value>
+  </data>
+  <data name="Selecione" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="semrealcontatos" xml:space="preserve">
+    <value>Não encontramos nenhum contato e sua lista telefônica!</value>
+  </data>
+  <data name="whatsappError" xml:space="preserve">
+    <value>Error ao tentar abrir o WhatsApp, verifique se você possui o aplicativo instalado no aparelho!</value>
+  </data>
+  <data name="contatos.Text" xml:space="preserve">
+    <value>Contatos:</value>
+  </data>
+  <data name="Developer.Text" xml:space="preserve">
+    <value>Desenvolvido por:</value>
+  </data>
+  <data name="txtFeedback.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="Versao.Text" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="errorSaveNumber" xml:space="preserve">
+    <value>Obrigatório adicionar um numero de telefone</value>
+  </data>
+  <data name="Idiomadeleitura.Content" xml:space="preserve">
+    <value>Voz da leitura e idioma</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="saveIsHistorico.Content" xml:space="preserve">
+    <value>Salvar históricos</value>
+  </data>
+  <data name="Setting.Label" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="SettingsText.Text" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="zapRemen.Content" xml:space="preserve">
+    <value>Enviar ao WhatsApp com remetente</value>
+  </data>
+  <data name="savefiletxt.Content" xml:space="preserve">
+    <value>Salvar arquivo .txt em</value>
+  </data>
+  <data name="savefiletxtDocumentos.Content" xml:space="preserve">
+    <value>Salvar na pasta "Imagens"</value>
+  </data>
+  <data name="savefiletxtPergunta.Content" xml:space="preserve">
+    <value>Perguntar pelo local ao salvar</value>
+  </data>
+  <data name="densidade" xml:space="preserve">
+    <value>Taxa de voz</value>
+  </data>
+  <data name="fina" xml:space="preserve">
+    <value>Fina</value>
+  </data>
+  <data name="grossa" xml:space="preserve">
+    <value>Grossa</value>
+  </data>
+  <data name="lenta" xml:space="preserve">
+    <value>Lenta</value>
+  </data>
+  <data name="Muitorapido" xml:space="preserve">
+    <value>Muito rápido</value>
+  </data>
+  <data name="normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="rapida" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="velocidade" xml:space="preserve">
+    <value>Velocidade da leitura</value>
+  </data>
+</root>
